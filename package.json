@@ -1,6 +1,7 @@
 {
   "name": "react-customizable-section-field",
   "version": "0.1.0",
+  "description": "可安插自定義多個輸入介面，並整合成 json 格式後帶入 input element 的 React component",
   "author": "CyberMuMu <b155b1552@gmail.com>",
   "main": "lib/index.js",
   "scripts": {
@@ -14,6 +15,14 @@
     "lib/", 
     "style/"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cybermumu/react-customizable-section-field"
+  },
+  "bugs": {
+    "url": "https://github.com/cybermumu/react-customizable-section-field/issues"
+  },
+  "homepage": "https://cybermumu.github.io/react-customizable-section-field/",
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.12.0",

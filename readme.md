@@ -1,0 +1,1 @@
+**react-customizable-section-field** 是一套用來做多個自定義版型，並將輸入後的資訊整合成 json 文字，套入單一 input element 的基礎 React component。開發者可以自行開發多個輸入用 component 並套入此元件，元件提供新增、排列與刪除的功能。
