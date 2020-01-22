@@ -30,4 +30,4 @@ const sectionFieldRender = (sections, inputName, wrapperClassName = '') => {
   );
 }
 
-export { sectionFieldRender };
+export { sectionFieldRender, RootField };

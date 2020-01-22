@@ -1,6 +1,6 @@
 {
   "name": "react-customizable-section-field",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "可安插自定義多個輸入介面，並整合成 json 格式後帶入 input element 的 React component",
   "author": "CyberMuMu <b155b1552@gmail.com>",
   "main": "lib/index.js",

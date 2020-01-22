@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import ClipboardJS from 'clipboard';
 
@@ -180,6 +181,12 @@ const RootField = ({name, defaultValue, sections}) => {
       <input type="hidden" name={name} value={JSON.stringify(outputValue)} />
     </>
   )
+}
+
+RootField.propTypes = {
+  name: PropTypes.string.isRequired, 
+  defaultValue: PropTypes.any.isRequired, 
+  sections: PropTypes.array.isRequired
 }
 
 export default RootField;
